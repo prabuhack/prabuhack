@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Biometric Voting System</title>
+  <link rel="stylesheet" href="./login.css">
+  <script src="https://www.gstatic.com/firebasejs/5.0.1/firebase.js"></script>
+  
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="login-box">
+  <h2>Login</h2>
+  <form>
+    <div class="user-box">
+      <input type="text" name="" required="" id="lid" autocomplete="off">
+      <label>Username</label>
+    </div>
+    <br>
+    <div class="user-box">
+      <input type="password" name="" required="" id="lpwd">
+      <label>Password</label>
+    </div>
+    <center>
+    <a href="#" onclick="validate()"> 
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      Submit
+    </a>
+    </center>
+    <br>
+    <br>
+    <center>
+    <h1 id="state"></h1>
+    </center>
+  </form>
+</div>
+<!-- partial -->
+<script src="login.js"></script>
+  
+</body>
+</html>
